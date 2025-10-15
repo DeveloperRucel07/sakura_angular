@@ -1,7 +1,7 @@
 .header{
     padding: 0 !important;
     margin: 0 !important;
-    background-image: url('../../../public/images/hero_bg.jpg');
+    background-image: url('../../../../public/images/hero_bg.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -13,17 +13,16 @@
     text-align: center;
     color: white;
     line-height: 65px;
+    h1{
+        font-size: 96px;
+        font-weight: bold;
+        margin-top: -100px;
+    }
+    
+    p{
+        font-size: 24px;
+        font-weight: 500;
+        margin: 0;
+        margin-bottom: 40px;
+    }
 }
-
-.header h1{
-    font-size: 96px;
-    font-weight: bold;
-    margin-top: -100px;
-}
-.header p{
-    font-size: 24px;
-    font-weight: 500;
-    margin: 0;
-    margin-bottom: 40px;
-}
-

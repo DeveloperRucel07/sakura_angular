@@ -1,0 +1,64 @@
+@use '../../../../styles.scss' as *;
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 112px;
+    padding: 30px;
+
+    .logo_img{
+        height: 64px;
+        width: 64px;
+        margin-left: 110px;
+    }
+
+    .menu_items{
+        display: inline-block;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        margin-right: 0px;
+        padding: 10px;
+        margin-top: 10px;
+
+        .menu_link{
+            text-decoration: none;
+            color: white;
+            margin: 20px;
+            font-size: 24px;
+            font-weight: 500;
+
+            &:hover{
+                text-decoration: underline;
+                color: $dark_red;
+            } 
+        }
+
+        .phone_number{
+            background-color: $dark_red;
+            color: white;
+            border: 1px solid white;
+            border-radius: 10px;
+            padding: 10px 20px;
+            font-size: 24px;
+
+            &:hover{
+                background-color:#360303;
+                color: white;
+                text-decoration: none;
+                transition: 0.5s;
+            }
+            
+            .phone_link{
+                width: 24px;
+                height: 24px;
+                margin-bottom: -4px;
+            }
+
+        }
+    } 
+}

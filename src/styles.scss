@@ -39,3 +39,21 @@
   font-weight: 800;
   src: url('../public/fonts/raleway-v37-latin-800.woff2') format('woff2'); 
 }
+
+@mixin title{
+  font-size: 80px;
+  font-weight: bold;
+  color: #9F0908;
+  text-align: center;
+  margin: 0;
+}
+
+@mixin displayFlex($jc: center, $ai:center){
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+}
+
+
+
+$dark_red: #9F0908;

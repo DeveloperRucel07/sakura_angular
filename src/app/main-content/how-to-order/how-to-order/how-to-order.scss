@@ -1,0 +1,32 @@
+@use '../../../../styles.scss' as *;
+
+.order{
+    margin: 120px 0 62px 0;
+}
+
+/* hero section */
+.title2{
+    @include title;
+}
+
+.content1{
+    @include displayFlex(space-around, center);
+}
+
+.card1{
+    @include displayFlex;
+    flex-direction: column;
+    padding-bottom: 120px;
+}
+
+.card1 img{
+    width: 128px;
+}
+.card1 h3{
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 0;
+    font-family: "Economica", sans-serif;
+    margin-top: 16px;
+    text-align: center;
+}

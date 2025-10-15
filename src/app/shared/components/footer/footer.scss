@@ -1,0 +1,29 @@
+/* footer   */
+.footer{
+    background-color: #0A141E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 125px;
+
+   .footer_logo{
+        height: 44px;
+        margin-left: 110px;
+    } 
+    
+    .logo_img{
+        display: none;
+    }
+    ul{
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        margin-right: 130px;
+        li img{
+            height: 40px;
+            width: 40px;
+            margin: 10px;
+        }
+    }
+}

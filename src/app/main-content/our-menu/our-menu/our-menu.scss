@@ -1,0 +1,65 @@
+@use '../../../../styles.scss' as *;
+
+.content2{
+    background-image: url('../../../../../public/images/section_our_menu_bg.jpg');
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    @include displayFlex(space-between, center);
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 80px;
+    padding-bottom: 110px;
+    transition: all 0.5s ease-in-out; /* test fur smoth responsive*/
+}
+
+.title2{
+    @include title;
+}
+
+.content2 .title2{
+    margin-bottom: 36px;
+    margin-top: 36px;
+}
+
+.menu_speise{
+    @include displayFlex;
+    flex-direction: row;
+    margin: 0;
+    padding-bottom: 28px;
+}
+
+.menu_speise img{
+    width: 352px;
+    height: 352px;
+}
+
+.menu2{
+    flex-direction: row-reverse;
+    table{
+        margin-right: 80px;
+    }
+}
+
+table{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    color: #675E54;
+    font-weight: bold;
+    font-size: 32px;
+    .title3{
+        font-size: 56px;
+        color: #000000;
+    }
+
+    tr{
+        @include displayFlex(space-between, center);
+        flex-direction: row;
+    }
+}
+
+.menu1 table, .menu3 table{
+    margin-left: 80px;
+}
+

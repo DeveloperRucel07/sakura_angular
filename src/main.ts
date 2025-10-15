@@ -4,3 +4,6 @@ import { App } from './app/app';
 
 bootstrapApplication(App, appConfig)
   .catch((err) => console.error(err));
+
+
+// ng build --source-map=true --base-href "/angular-projects/PROJEKTNAME/"
