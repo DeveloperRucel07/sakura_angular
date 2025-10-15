@@ -1,0 +1,26 @@
+import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+
+@Component({
+    selector: 'app-nav-bar',
+    standalone: true,
+    imports: [CommonModule],
+    template:`
+        <div class="menu">
+            <div class="logo">
+                <img src="images/sakura_logo.png" alt=" Sakura Logo" class="logo_img">
+            </div>
+            <div class="menu_items">
+                <a href="#menu" class="menu_link nav-item">MENU</a>
+                <a href="#location" class="menu_link nav-item">LOCATION</a>
+                <a href="#footer" class="menu_link nav-item">ABOUT</a>
+                <a href="tel:0176 54564534" class="menu_link phone_number"><img src="images/phone.png" alt="phone" class="phone_link"> 0176 54564534</a>
+            </div>
+        </div>
+    
+    `,
+    styleUrls: ['./navBar.component.scss', ],
+
+})
+
+export class NavBarComponent {}
